@@ -1,8 +1,8 @@
 module Tests
+open Rosalind.Solutions
 
-open System
 open Xunit
 
 [<Fact>]
-let ``My test`` () =
-    Assert.True(true)
+let ``Counting DNA Nucleotides`` () =
+    Assert.Equal("20 12 17 21", Dna.solveToString "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC")
