@@ -4,5 +4,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Dna.fs" />
+    <Compile Include="Rna.fs" />
   </ItemGroup>
 </Project>
